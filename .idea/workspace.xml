@@ -42,6 +42,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Reikalai\Programavimas\Java\Swing" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -55,6 +58,11 @@
     </configuration>
     <configuration name="MyFrame" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="MyFrame" />
+      <module name="Swing" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MyFramePanels" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="MyFramePanels" />
       <module name="Swing" />
       <method v="2" />
     </configuration>
