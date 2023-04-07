@@ -3,7 +3,8 @@ public class Main {
 
 //        MyFrameLabels myFrameLabels = new MyFrameLabels();
 //        MyFramePanels myFramePanels = new MyFramePanels();
-        MyFrameButtons myFrameButtons = new MyFrameButtons();
+//        MyFrameButtons myFrameButtons = new MyFrameButtons();
+        MyFrameBorderLayout myFrameBorderLayout = new MyFrameBorderLayout();
 
 
     }
