@@ -7,7 +7,7 @@ public class MyFramePanels extends JFrame {
         this.setTitle("Panel title 2023-04-06");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(600, 600);
-        this.setLayout(null);
+        this.setLayout(null); // Layout manager
         this.setLocationRelativeTo(null); // center frame
         this.getContentPane().setBackground(new Color(244, 239, 226));
 
