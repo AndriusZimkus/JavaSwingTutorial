@@ -7,6 +7,7 @@ public class MyFrameBorderLayout extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(600, 600);
 
+        // Default for frames is border layout
         BorderLayout myBorderLayout = new BorderLayout(10, 20);
         this.setLayout(myBorderLayout);
         this.setVisible(true);
