@@ -6,8 +6,8 @@ public class Main {
 //        MyFrameButtons myFrameButtons = new MyFrameButtons();
 //        MyFrameBorderLayout myFrameBorderLayout = new MyFrameBorderLayout();
 //        MyFrameFlowLayout myFrameFlowLayout = new MyFrameFlowLayout();
-        MyFrameGridLayout myFrameGridLayoutLayout = new MyFrameGridLayout();
-
+//        MyFrameGridLayout myFrameGridLayoutLayout = new MyFrameGridLayout();
+        MyFrameJLayeredPane myFrameJLayeredPane = new MyFrameJLayeredPane();
 
     }
 }
