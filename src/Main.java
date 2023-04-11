@@ -21,8 +21,8 @@ public class Main {
 //        MyFrameTextFields myFrameTextFields = new MyFrameTextFields();
 //        MyFrameCheckbox myFrameCheckbox = new MyFrameCheckbox();
 //        MyFrameRadioButtons myFrameRadioButtons = new MyFrameRadioButtons();
-        MyFrameComboBox myFrameComboBox = new MyFrameComboBox();
-
+//        MyFrameComboBox myFrameComboBox = new MyFrameComboBox();
+        SliderDemo sliderDemo = new SliderDemo();
 
     }
 
