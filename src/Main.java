@@ -19,7 +19,8 @@ public class Main {
 
 //        JOptionPaneTutorial.JOptionPaneTutorialMethod("testing");
 //        MyFrameTextFields myFrameTextFields = new MyFrameTextFields();
-        MyFrameCheckbox myFrameCheckbox = new MyFrameCheckbox();
+//        MyFrameCheckbox myFrameCheckbox = new MyFrameCheckbox();
+        MyFrameRadioButtons myFrameRadioButtons = new MyFrameRadioButtons();
     }
 
 
