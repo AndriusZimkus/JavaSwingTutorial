@@ -26,7 +26,9 @@ public class Main {
 //        ProgressBarDemo progressBarDemo = new ProgressBarDemo();
 //        MyFrameMenuBars myFrameMenuBars = new MyFrameMenuBars();
 //        MyFrameFileChooser myFrameFileChooser = new MyFrameFileChooser();
-        MyFrameColorChooser myFrameColorChooser = new MyFrameColorChooser();
+//        MyFrameColorChooser myFrameColorChooser = new MyFrameColorChooser();
+//        MyFrameKeyListener myFrameKeyListener = new MyFrameKeyListener();
+        MyFrameMouseListener myFrameMouseListener = new MyFrameMouseListener();
 
 
     }
