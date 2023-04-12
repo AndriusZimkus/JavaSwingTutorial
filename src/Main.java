@@ -25,7 +25,8 @@ public class Main {
 //        SliderDemo sliderDemo = new SliderDemo();
 //        ProgressBarDemo progressBarDemo = new ProgressBarDemo();
 //        MyFrameMenuBars myFrameMenuBars = new MyFrameMenuBars();
-        MyFrameFileChooser myFrameFileChooser = new MyFrameFileChooser();
+//        MyFrameFileChooser myFrameFileChooser = new MyFrameFileChooser();
+        MyFrameColorChooser myFrameColorChooser = new MyFrameColorChooser();
 
 
     }
