@@ -22,7 +22,11 @@ public class Main {
 //        MyFrameCheckbox myFrameCheckbox = new MyFrameCheckbox();
 //        MyFrameRadioButtons myFrameRadioButtons = new MyFrameRadioButtons();
 //        MyFrameComboBox myFrameComboBox = new MyFrameComboBox();
-        SliderDemo sliderDemo = new SliderDemo();
+//        SliderDemo sliderDemo = new SliderDemo();
+//        ProgressBarDemo progressBarDemo = new ProgressBarDemo();
+//        MyFrameMenuBars myFrameMenuBars = new MyFrameMenuBars();
+        MyFrameFileChooser myFrameFileChooser = new MyFrameFileChooser();
+
 
     }
 
