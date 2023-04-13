@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Swing:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="40965936-af30-4cf1-a566-00e0618cfca4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +43,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Reikalai/Programavimas/Java/GUI_Tutorial",
-    "project.structure.last.edited": "Libraries",
+    "last_opened_file_path": "C:/Reikalai/Programavimas/Java/GUI_Tutorial/src/images",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -47,6 +52,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Reikalai\Programavimas\Java\GUI_Tutorial\src" />
       <recent name="C:\Reikalai\Programavimas\Java\Swing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">

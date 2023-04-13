@@ -10,12 +10,12 @@ public class MyFrameDragAndDrop extends JFrame {
 
     public MyFrameDragAndDrop() throws HeadlessException {
 
-        label = new JLabel();
-        label.setBounds(300, 300, 150, 150);
-        label.setBackground(Color.black);
-        label.setOpaque(true);
+//        label = new JLabel();
+//        label.setBounds(300, 300, 150, 150);
+//        label.setBackground(Color.black);
+//        label.setOpaque(true);
 
-        this.add(label);
+//        this.add(label);
         this.add(dragPanel);
         this.setTitle("Drag & Drop demo");
         this.setSize(600, 600);

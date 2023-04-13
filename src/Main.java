@@ -1,4 +1,3 @@
-import DragAndDrop.MyFrameDragAndDrop;
 import NewWindow.LaunchPage;
 
 public class Main {
@@ -29,8 +28,8 @@ public class Main {
 //        MyFrameFileChooser myFrameFileChooser = new MyFrameFileChooser();
 //        MyFrameColorChooser myFrameColorChooser = new MyFrameColorChooser();
 //        MyFrameKeyListener myFrameKeyListener = new MyFrameKeyListener();
-//        MyFrameMouseListener myFrameMouseListener = new MyFrameMouseListener();
-        MyFrameDragAndDrop myFrameDragAndDrop = new MyFrameDragAndDrop();
+        MyFrameMouseListener myFrameMouseListener = new MyFrameMouseListener();
+//        MyFrameDragAndDrop myFrameDragAndDrop = new MyFrameDragAndDrop();
 
 
     }

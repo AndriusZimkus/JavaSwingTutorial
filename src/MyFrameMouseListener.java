@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.io.IOException;
 
 public class MyFrameMouseListener extends JFrame implements MouseListener {
 
@@ -14,7 +15,7 @@ public class MyFrameMouseListener extends JFrame implements MouseListener {
     ImageIcon pain;
     ImageIcon dizzy;
 
-    MyFrameMouseListener() {
+    MyFrameMouseListener() throws IOException {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         this.setLayout(new FlowLayout());
@@ -23,10 +24,13 @@ public class MyFrameMouseListener extends JFrame implements MouseListener {
         this.setLocationRelativeTo(null); // Center window
         this.getContentPane().setBackground(MyStyle.mainBackgroundColor);
 
-        smile = new ImageIcon("images/folder-7-32.png");
-        nervous = new ImageIcon("images/save-32.png");
-        pain = new ImageIcon("images/exit-32.png");
-        dizzy = new ImageIcon("images/star-22-32.png");
+        smile = new ImageIcon("src/images/folder-7-32.png");
+        nervous = new ImageIcon("src/images/save-32.png");
+        pain = new ImageIcon("src/images/exit-32.png");
+        dizzy = new ImageIcon("src/images/star-22-32.png");
+
+//        System.out.println(smile);
+//        System.out.println("aa");
 
         label = new JLabel();
         label.setIcon(smile);
