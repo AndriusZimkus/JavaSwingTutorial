@@ -1,3 +1,5 @@
+package MyStyle;
+
 import java.awt.*;
 
 public abstract class MyStyle {

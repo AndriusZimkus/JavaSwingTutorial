@@ -1,3 +1,5 @@
+import MyStyle.MyStyle;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
@@ -31,7 +33,7 @@ public class MyFrameMouseListener extends JFrame implements MouseListener {
         label.addMouseListener(this);
 
 //        label.setBounds(0, 0, 100, 100);
-//        label.setBackground(MyStyle.buttonColor);
+//        label.setBackground(MyStyle.MyStyle.buttonColor);
 //        label.setOpaque(true);
 //        this.addMouseListener(this);
 
