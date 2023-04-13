@@ -19,9 +19,9 @@ public class MyFrameMenuBars extends JFrame implements ActionListener {
         this.setSize(500, 500);
         this.setLocationRelativeTo(null); // Center window
 
-        loadIcon = new ImageIcon("images/folder-7-32.png");
-        saveIcon = new ImageIcon("images/save-32.png");
-        exitIcon = new ImageIcon("images/exit-32.png");
+        loadIcon = new ImageIcon("src/images/folder-7-32.png");
+        saveIcon = new ImageIcon("src/images/save-32.png");
+        exitIcon = new ImageIcon("src/images/exit-32.png");
         JMenuBar menuBar = new JMenuBar();
         JMenu fileMenu = new JMenu("File");
         JMenu editMenu = new JMenu("Edit");

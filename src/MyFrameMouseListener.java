@@ -23,12 +23,25 @@ public class MyFrameMouseListener extends JFrame implements MouseListener {
 //        this.pack();
         this.setLocationRelativeTo(null); // Center window
         this.getContentPane().setBackground(MyStyle.mainBackgroundColor);
+        
 
-        smile = new ImageIcon("src/images/folder-7-32.png");
-        nervous = new ImageIcon("src/images/save-32.png");
-        pain = new ImageIcon("src/images/exit-32.png");
-        dizzy = new ImageIcon("src/images/star-22-32.png");
-
+        // https://stackoverflow.com/questions/4301329/java-class-getresource-returns-null
+        java.net.URL imageURL = this.getClass().getClassLoader().getResource("images/folder-7-32.png");
+        if (imageURL != null) {
+            smile = new ImageIcon(imageURL);
+        }
+        imageURL = this.getClass().getClassLoader().getResource("images/save-32.png");
+        if (imageURL != null) {
+            nervous = new ImageIcon(imageURL);
+        }
+        imageURL = this.getClass().getResource("images/exit-32.png");
+        if (imageURL != null) {
+            pain = new ImageIcon(imageURL);
+        }
+        imageURL = this.getClass().getResource("images/star-22-32.png");
+        if (imageURL != null) {
+            dizzy = new ImageIcon(imageURL);
+        }
 //        System.out.println(smile);
 //        System.out.println("aa");
 

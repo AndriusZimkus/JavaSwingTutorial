@@ -8,7 +8,7 @@ import java.awt.event.MouseMotionAdapter;
 
 public class DragPanel extends JPanel {
 
-    ImageIcon image = new ImageIcon("/images/folder-7-32.png");
+    ImageIcon image = new ImageIcon("src/images/folder-7-32.png");
 
     final int WIDTH = image.getIconWidth();
     final int HEIGHT = image.getIconHeight();
