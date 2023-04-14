@@ -13,7 +13,7 @@ public class StartWindow extends JFrame implements ActionListener {
     JButton button;
     String[] availableFunctions = {"DragAndDrop", "MouseListener", "TextFields", "NewWindow", "JOptionPane", "BorderLayout",
             "Buttons", "Checkbox", "ColorChooser", "ComboBox", "FileChooser", "FlowLayout", "GridLayout", "JLayeredPane", "KeyListener",
-            "Labels", "MenuBars", "Panels", "RadioButtons", "ProgressBar", "Slider"};
+            "Labels", "MenuBars", "Panels", "RadioButtons", "ProgressBar", "Slider", "KeyBindings"};
 
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -88,6 +88,9 @@ public class StartWindow extends JFrame implements ActionListener {
                 break;
             case "Slider":
                 new SliderDemo();
+                break;
+            case "KeyBindings":
+                new KeyBindingsDemo();
                 break;
         }
     }
