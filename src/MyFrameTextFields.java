@@ -30,6 +30,15 @@ public class MyFrameTextFields extends JFrame implements ActionListener {
         this.pack();
         this.setLocationRelativeTo(null); // Center window
 
+//        this.addWindowListener(
+//                new WindowAdapter() {
+//                    public void windowClosing(WindowEvent e) {
+//                        onExit();
+//                    }
+//                }
+//        );
+
+
         this.setVisible(true);
     }
 
@@ -46,4 +55,9 @@ public class MyFrameTextFields extends JFrame implements ActionListener {
             button.setEnabled(false);
         }
     }
+
+//    public void onExit() {
+//        this.dispose();
+//        new StartWindow();
+//    }
 }

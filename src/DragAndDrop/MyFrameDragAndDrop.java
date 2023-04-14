@@ -22,6 +22,22 @@ public class MyFrameDragAndDrop extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
 
+//        this.addWindowListener(
+//                new WindowAdapter() {
+//                    public void windowClosing(WindowEvent e) {
+//                        onExit();
+//
+//
+//                    }
+//                }
+//        );
+
+
         this.setVisible(true);
     }
+
+//    public void onExit() {
+//        this.dispose();
+//        new StartWindow();
+//    }
 }

@@ -1,9 +1,10 @@
-import NewWindow.LaunchPage;
-
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
+
+        new StartWindow();
+
 
 //        MyFrameLabels myFrameLabels = new MyFrameLabels();
 //        MyFramePanels myFramePanels = new MyFramePanels();
@@ -15,9 +16,9 @@ public class Main {
 //
 
         // New window tutorial 2023-04-09
-        if (false) {
-            LaunchPage launchPage = new LaunchPage();
-        }
+//        if (false) {
+//            LaunchPage launchPage = new LaunchPage();
+//        }
 
 //        JOptionPaneTutorial.JOptionPaneTutorialMethod("testing");
 //        MyFrameTextFields myFrameTextFields = new MyFrameTextFields();
@@ -30,7 +31,7 @@ public class Main {
 //        MyFrameFileChooser myFrameFileChooser = new MyFrameFileChooser();
 //        MyFrameColorChooser myFrameColorChooser = new MyFrameColorChooser();
 //        MyFrameKeyListener myFrameKeyListener = new MyFrameKeyListener();
-        MyFrameMouseListener myFrameMouseListener = new MyFrameMouseListener();
+//        MyFrameMouseListener myFrameMouseListener = new MyFrameMouseListener();
 //        MyFrameDragAndDrop myFrameDragAndDrop = new MyFrameDragAndDrop();
 
 

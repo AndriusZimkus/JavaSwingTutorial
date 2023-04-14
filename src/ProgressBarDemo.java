@@ -21,6 +21,7 @@ public class ProgressBarDemo {
         frame.setSize(420, 420);
         frame.setLocationRelativeTo(null);
         frame.setLayout(null);
+
         frame.setVisible(true);
 
         fill();
