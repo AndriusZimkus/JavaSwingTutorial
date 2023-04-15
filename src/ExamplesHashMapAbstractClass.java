@@ -1,4 +1,6 @@
+import Animations2D.MyFrame2DAnimations;
 import DragAndDrop.MyFrameDragAndDrop;
+import Graphics2D.MyFrame2DGraphics;
 import NewWindow.LaunchPage;
 
 import java.io.IOException;
@@ -38,6 +40,8 @@ public abstract class ExamplesHashMapAbstractClass {
         examplesHashMap.put("ProgressBar", () -> new ProgressBarDemo());
         examplesHashMap.put("Slider", () -> new SliderDemo());
         examplesHashMap.put("KeyBindings", () -> new KeyBindingsDemo());
+        examplesHashMap.put("2DGraphics", () -> new MyFrame2DGraphics());
+        examplesHashMap.put("2DAnimations", () -> new MyFrame2DAnimations());
 
         return examplesHashMap;
     }

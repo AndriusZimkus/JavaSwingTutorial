@@ -24,8 +24,8 @@ public class StartWindow extends JFrame implements ActionListener {
         exampleHashMap = ExamplesHashMapAbstractClass.ExamplesHashMap();
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setSize(800, 800);
-        this.setLocationRelativeTo(null); // Center window
+//        this.setSize(800, 800);
+
         this.getContentPane().setBackground(MyStyle.mainBackgroundColor);
 
         this.getContentPane().setLayout(new FlowLayout());
@@ -48,6 +48,8 @@ public class StartWindow extends JFrame implements ActionListener {
         }
 
         this.getContentPane().add(helperPanel);
+        this.pack();
+        this.setLocationRelativeTo(null); // Center window
         this.setVisible(true);
     }
 
