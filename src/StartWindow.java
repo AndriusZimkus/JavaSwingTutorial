@@ -4,38 +4,36 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.HashMap;
+import java.util.TreeMap;
 
 public class StartWindow extends JFrame implements ActionListener {
 
     JButton button;
-    HashMap<String, ExampleInvoker> exampleHashMap;
+    TreeMap<String, ExampleInvoker> examplesTreeMap;
 
     @Override
     public void actionPerformed(ActionEvent e) {
         JButton source = (JButton) e.getSource();
 
         this.dispose(); // Close first window
-        exampleHashMap.get(source.getText()).invokeExample();
+        examplesTreeMap.get(source.getText()).invokeExample();
     }
 
     StartWindow() {
 
-        exampleHashMap = ExamplesHashMapAbstractClass.ExamplesHashMap();
+        examplesTreeMap = ExamplesTreeMapAbstractClass.ExamplesTreeMap();
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        this.setSize(800, 800);
-
         this.getContentPane().setBackground(MyStyle.mainBackgroundColor);
-
         this.getContentPane().setLayout(new FlowLayout());
+        this.setTitle("JAVA GUI Tutorial");
 
         JPanel helperPanel = new JPanel();
         helperPanel.setOpaque(false);
 
         helperPanel.setLayout(new BoxLayout(helperPanel, BoxLayout.Y_AXIS));
 
-        for (String x : exampleHashMap.keySet()) {
+        for (String x : examplesTreeMap.keySet()) {
             button = new JButton(x);
             button.setFocusable(false);
             button.setPreferredSize(new Dimension(150, 50));
@@ -52,6 +50,5 @@ public class StartWindow extends JFrame implements ActionListener {
         this.setLocationRelativeTo(null); // Center window
         this.setVisible(true);
     }
-
 
 }
