@@ -12,10 +12,10 @@ public class MyFrameButtons extends JFrame implements ActionListener {
 
     MyFrameButtons() {
 
-        ImageIcon icon = new ImageIcon("images/iconSmall.png");
+        ImageIcon icon = new ImageIcon("src/images/iconSmall.png");
 
         labelAfterClick = new JLabel();
-        ImageIcon labelIcon = new ImageIcon("images/skull.png");
+        ImageIcon labelIcon = new ImageIcon("src/images/skull.png");
         labelAfterClick.setIcon(labelIcon);
         labelAfterClick.setBounds(100, 400, 360, 360);
         labelAfterClick.setVisible(false);

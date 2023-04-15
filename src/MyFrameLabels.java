@@ -5,8 +5,8 @@ import java.awt.*;
 public class MyFrameLabels extends JFrame {
     MyFrameLabels() {
 
-        ImageIcon image = new ImageIcon("images/skull.png");
-        ImageIcon icon = new ImageIcon("images/icon.png");
+        ImageIcon image = new ImageIcon("src/images/skull.png");
+        ImageIcon icon = new ImageIcon("src/images/icon.png");
 
         this.setTitle("Temporary title v2");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

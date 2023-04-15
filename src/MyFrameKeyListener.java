@@ -16,7 +16,7 @@ public class MyFrameKeyListener extends JFrame implements KeyListener {
         this.addKeyListener(this);
         this.setLocationRelativeTo(null); // Center window
 
-        icon = new ImageIcon("images/exit-32.png");
+        icon = new ImageIcon("src/images/exit-32.png");
 
         label = new JLabel();
         label.setBounds(0, 0, 100, 100);

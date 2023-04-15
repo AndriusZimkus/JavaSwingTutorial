@@ -1,4 +1,2 @@
 # JAVA GUI Tutorial
-Addition 2023-04-14
-Addition 2023-04-14 2
-Addition 2023-04-14 3
+All lessons from [Java GUI: Full Course](https://www.youtube.com/watch?v=Kmgo00avvEw)

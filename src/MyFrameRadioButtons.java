@@ -17,9 +17,9 @@ public class MyFrameRadioButtons extends JFrame implements ActionListener {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
 
-        pizzaIcon = new ImageIcon("images/brain-3-48.png");
-        hamburgerIcon = new ImageIcon("images/x-mark-48.png");
-        hotdogIcon = new ImageIcon("images/checkmark-48.png");
+        pizzaIcon = new ImageIcon("src/images/brain-3-48.png");
+        hamburgerIcon = new ImageIcon("src/images/x-mark-48.png");
+        hotdogIcon = new ImageIcon("src/images/checkmark-48.png");
 
         pizzaButton = new JRadioButton("pizza");
         hamburgerButton = new JRadioButton("hamburger");
